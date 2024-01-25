@@ -17,8 +17,13 @@ export default {
 
 <template>
   <main>
-    <div class="container">
-      <div class="row">
+    <div class="container" style="background-color: orange; padding: 30px;">
+      <select>
+        <option value="Alien">
+          Alien
+        </option>
+      </select>
+      <div class="row" style="background-color: white;">
         <div class="col-12 col-sm-6 col-md-3 text-center"
         v-for="(character, i) in allCharacters"
         :key="i">
@@ -30,9 +35,6 @@ export default {
             <h2 class="mb-3 fs-5">
               {{ character.name }}
             </h2>
-            <h4 class="fs-6">
-              {{  character.status }}
-            </h4>
             <h4 class="fs-6">
               {{  character.species }}
             </h4>

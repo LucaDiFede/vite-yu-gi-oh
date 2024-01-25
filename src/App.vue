@@ -33,7 +33,6 @@ export default {
 </script>
 
 
-
 <template>
 
   <AppHeader />
@@ -42,7 +41,6 @@ export default {
 
   <AppFooter />
 </template>
-
 <style lang="scss">
 @use "assets/scss/main" as *;
 </style>
